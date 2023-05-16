@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&family=Hubballi&family=Inter:wght@300;500;700&family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,100;0,500;1,500&family=Raleway:ital,wght@0,700;1,400&display=swap');
+
+
+._comprar{
+    display:none;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 172;
+        font-size: 20px;
+        line-height: 20px;
+box-sizing: border-box;
+color:#F6F5FB;
+position: relative;
+width: 202px;
+height: 48px;
+left: 38px;
+top: 5px; 
+
+background: #2A3342;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+
+}
+
+
+.btn-comprar:hover {
+    display: inline-block;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #btn-contato{
+    display:flex ;
+    font-family: 'Raleway';
+    width: 200px;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 170px;
+  }
+
+  h2{
+    display:flex;
+    margin-left: 170px;
+  }
